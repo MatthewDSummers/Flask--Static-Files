@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Untitled</title>
+        <meta name="description" content="Rocko the famous wallaby.">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    </head>
+    <body>
+        <div id="container">
+            <h1>hello</h1>
+            <img src="{{ url_for('static', filename='images/rocko.png') }}" id="rocko" >
+            <button onClick="toggleRocko()">Hide / Show Rocko</button>
+        </div>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    </body>
+</html>
